@@ -1,5 +1,5 @@
 [workspace]
 members = [
     "webapp",
-    "plugin1",
+    "plugin",
 ]

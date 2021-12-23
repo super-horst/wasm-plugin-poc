@@ -4,7 +4,11 @@
     <meta charset="utf-8" />
     <title>webapp</title>
     <script type="module">
-      import init from "/wasm.js";
+      import init from "/main.js";
+      init();
+    </script>
+    <script type="module">
+      import init from "/plugin.js";
       init();
     </script>
     <link rel="shortcut icon" href="#" />
