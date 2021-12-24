@@ -18,6 +18,8 @@ fn request(req: Request<Body>) -> Response<Body> {
         &req.uri().path()[1..]
     };
 
+    println!("requested {}", path);
+
     // query the file from embedded asset with specified path
     match Asset::get(path) {
         Some(content) => {
