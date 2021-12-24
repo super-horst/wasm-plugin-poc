@@ -1,0 +1,10 @@
+[package]
+name = "hive-webclient"
+version = "0.1.0"
+authors = ["super-horst <super-horst@posteo.net>"]
+edition = "2021"
+
+[dependencies]
+hyper="0.12"
+rust-embed = "5.1.0"
+futures = "0.1"
