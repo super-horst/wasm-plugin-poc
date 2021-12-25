@@ -8,5 +8,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 log = "0.4.11"
-wasm-bindgen = "0.2.66"
+wasm-bindgen = "0.2.74"
 wasm-logger = "0.2.0"
