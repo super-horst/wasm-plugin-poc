@@ -1,6 +1,6 @@
 use futures::future::Future;
 use rust_embed::RustEmbed;
-use std::{borrow::Cow, thread};
+use std::borrow::Cow;
 
 use hyper::service::service_fn_ok;
 use hyper::{Body, Request, Response, Server};
